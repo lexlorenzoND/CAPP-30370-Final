@@ -23,7 +23,7 @@ Starred Parts
 -------------
 
 ###Breakpoints
-* Media screen 500px mobile
+* Media screen 500px tablet
 * Media Screen 900px desktop
 
 ###3 or more Columns 

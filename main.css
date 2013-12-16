@@ -1,0 +1,73 @@
+@viewport {width:device-width; zoom:1;}
+
+    * {-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+    html {width:100%; margin:0; padding:0; font-size:100%;}
+    body {width:100%; margin:0; padding:0; color:white; font:1em/1.5em "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;}
+    article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {display:block;}
+
+body {
+background-image: url(lilly.jpg);
+background-color: pink;
+background-repeat: repeat;
+}
+
+
+img {max-width:100%; box-shadow: 4px 4px #666; }
+	
+.pic:hover {
+-webkit-transform: rotate(180deg);
+} 
+
+header {text-align: center; display: block; padding: 10px 10px; margin: 5px;border:1px solid black;background-color:green;}
+
+footer {clear:both; text-align: center; display: block; padding: 10px 10px; margin: 5px;border:1px solid black;background-color:#FF3385;}
+
+
+
+.title2 {display: block; padding: 10px 10px; margin: 5px;background-color: #FF3385; text-align: center; }
+ 
+
+
+
+@media only screen and (min-width:500px) {
+
+header {background-color:green;}
+
+
+.section2 {overflow: hidden; clear:both;}
+.title2 { padding: 10px 10px; margin: 5px;;background-color:#FF3385; width:30%;  float:left; }
+nav {width:15%; float: left; }
+
+
+}
+
+@media only screen and (min-width:900px) {
+
+header {background-color:green;}
+
+
+.section2 {overflow: hidden; clear:both;}
+.title2 {padding: 10px 10px; margin: 5px; background-color:#FF3385; width:30%; float:left; }
+
+
+
+}
+
+ 
+  nav ul  {margin:0 auto; padding:0; list-style:none;}
+
+  
+
+  nav ul li a {
+	display: block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none:
+	padding: 10px 10px;
+	margin: 5px;
+	color: white;
+	background-color: #FF3385;
+	border-radius: 15px;
+	
+}
+
